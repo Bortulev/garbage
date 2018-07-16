@@ -7,7 +7,7 @@
   <con:testStep type="delay" name="Delay" id="af10c0d1-6548-462f-b692-ce18611639f7">
     <con:settings/>
     <con:config>
-      <delay>1000</delay>
+      <delay>9000</delay>
     </con:config>
   </con:testStep>
   <con:testStep type="delay" name="J-j" id="81b26111-c0a8-4694-b6c9-9868d74f2622">
