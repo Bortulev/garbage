@@ -10,6 +10,12 @@
       <delay>1000</delay>
     </con:config>
   </con:testStep>
+  <con:testStep type="delay" name="Delay_2" id="42b2cea8-5591-49a5-bd66-e0915285bc49">
+    <con:settings/>
+    <con:config>
+      <delay>1000</delay>
+    </con:config>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>
