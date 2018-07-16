@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="6c4ab104-b1b9-45a7-8733-f81cb99613d9" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Git_TestCase" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="6c4ab104-b1b9-45a7-8733-f81cb99613d9fileName">Git_TestCase</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:testStep type="delay" name="Git_Delay" id="1aa18368-4029-4e77-9681-daef9c6a9575">
+    <con:settings/>
+    <con:config>
+      <delay>1000</delay>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
