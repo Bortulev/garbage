@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <con:soapui-project id="3da58c03-7313-49d3-972a-bc656f50144a" created="2.5.0-SNAPSHOT" activeEnvironment="Default environment" name="Ganjubas" resourceRoot="" updated="2.5.0-SNAPSHOT" encryptionMode="Not encrypted" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings/>
+  <con:settings>
+    <con:setting id="3da58c03-7313-49d3-972a-bc656f50144afileName">Ganjubas1</con:setting>
+  </con:settings>
   <con:vcsConfiguration>
     <con:vcsName>Git</con:vcsName>
     <con:repositoryIdentifier>https://github.com/Bortulev/garbage</con:repositoryIdentifier>
