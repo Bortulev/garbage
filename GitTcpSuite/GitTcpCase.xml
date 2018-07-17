@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="4e26a3ef-92ca-4ca8-acab-9d387654ba39" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="GitTcpCase" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="4e26a3ef-92ca-4ca8-acab-9d387654ba39fileName">GitTcpCase</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:testStep type="delay" name="GitTcpDelay" id="13f06eef-11d3-47c4-b467-625783ff0107">
+    <con:settings/>
+    <con:config>
+      <delay>1000</delay>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
