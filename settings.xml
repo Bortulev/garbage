@@ -1,10 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <con:soapui-project id="21e7e8ae-df41-4ec1-aea2-c19df171425e" created="2.5.0-SNAPSHOT" activeEnvironment="Default environment" name="GitTcpTest" resourceRoot="" compositeProjectFormat="1.2" updated="2.5.0-SNAPSHOT" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings/>
+  <con:settings>
+    <con:setting id="21e7e8ae-df41-4ec1-aea2-c19df171425efileName">GitTcpTest</con:setting>
+  </con:settings>
   <con:vcsConfiguration>
     <con:vcsName>Git</con:vcsName>
     <con:repositoryIdentifier>https://github.com/Bortulev/garbage</con:repositoryIdentifier>
   </con:vcsConfiguration>
+  <con:customMockService id="9a84cf4b-36d5-40ee-a7d5-56a0e4bbfc83" name="TCP Virtual Service 1">
+    <con:settings/>
+    <con:properties>
+      <con:property>
+        <con:name>tcpMockService.port</con:name>
+        <con:value>9897</con:value>
+      </con:property>
+      <con:property>
+        <con:name>tcpMockService.requestDelimiterType</con:name>
+        <con:value>Segment Forwarding</con:value>
+      </con:property>
+      <con:property>
+        <con:name>tcpMockService.requestDelimiterParams</con:name>
+        <con:value/>
+      </con:property>
+      <con:property>
+        <con:name>tcpMockService.responseDelimiterType</con:name>
+        <con:value>Segment Forwarding</con:value>
+      </con:property>
+      <con:property>
+        <con:name>tcpMockService.responseDelimiterParams</con:name>
+        <con:value/>
+      </con:property>
+    </con:properties>
+    <con:constraints>
+      <con:congestion>0</con:congestion>
+      <con:inputBandwidth>-1</con:inputBandwidth>
+      <con:outputBandwidth>-1</con:outputBandwidth>
+      <con:maxThreadPoolCapacity>20</con:maxThreadPoolCapacity>
+      <con:coreThreadPoolCapacity>5</con:coreThreadPoolCapacity>
+      <con:virtError>
+        <con:start>0</con:start>
+        <con:endless>true</con:endless>
+      </con:virtError>
+    </con:constraints>
+    <con:virtProperties>
+      <con:property>
+        <con:name>mockServiceType</con:name>
+        <con:value>TCP</con:value>
+      </con:property>
+    </con:virtProperties>
+  </con:customMockService>
   <con:savedRecentRuns>1</con:savedRecentRuns>
   <con:properties/>
   <con:wssContainer/>
@@ -12,6 +56,7 @@
   <con:jmsConnectionContainer/>
   <con:oAuth2ProfileContainer/>
   <con:oAuth1ProfileContainer/>
+  <con:reporting/>
   <con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest">
     <con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
 // This code is often used for adding custom authentication to SoapUI Pro tests
