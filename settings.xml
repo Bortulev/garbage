@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="21e7e8ae-df41-4ec1-aea2-c19df171425e" created="2.5.0-SNAPSHOT" activeEnvironment="Default environment" name="GitTcpTest" resourceRoot="" compositeProjectFormat="1.2" updated="2.6.0-SNAPSHOT" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="21e7e8ae-df41-4ec1-aea2-c19df171425e" created="2.5.0-SNAPSHOT" activeEnvironment="Default environment" name="GitTcpTest" resourceRoot="" compositeProjectFormat="1.2" updated="2.5.0-SNAPSHOT" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="21e7e8ae-df41-4ec1-aea2-c19df171425efileName">GitTcpTest</con:setting>
   </con:settings>
@@ -46,7 +46,7 @@
   <con:authRepository/>
   <con:tags/>
   <con:customMockService id="9a84cf4b-36d5-40ee-a7d5-56a0e4bbfc83" name="TCP Virtual Service 1">
-    <con:settings/>
+    <con:settings></con:settings>
     <con:properties>
       <con:property>
         <con:name>tcpMockService.port</con:name>

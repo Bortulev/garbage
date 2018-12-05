@@ -10,10 +10,6 @@
       <delay>1000</delay>
     </con:config>
   </con:testStep>
-  <con:testStep type="manualTestStep" name="Manual" id="cfb9b075-b6a2-4a6c-9584-4f60f0c8ea35">
-    <con:settings/>
-    <con:config xsi:type="con:ManualTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>
